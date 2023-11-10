@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -161,10 +146,30 @@ body {
 
 
 
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo > P{
+  font-size: 18px;
+  color: var(--independence);
+  cursor: pointer;
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+}
+.logo > p:is(:hover, :focus){
+  color: var(--carolina-blue);
+}
+.logo > .screen{
+  height: 70px;
+  width: 70px;
+  padding: 4px;
+  padding-right: 10px;
+
+}
+
 
 .container { padding-inline: 15px; }
 
